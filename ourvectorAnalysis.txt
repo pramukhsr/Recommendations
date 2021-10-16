@@ -1,0 +1,63 @@
+*********************************************************
+ourvector<12advacedBasic> stats:
+ # of vectors created:   2
+ # of elements inserted: 18
+ # of elements accessed: 173
+*********************************************************
+*********************************************************
+ourvector<8Advanced> stats:
+ # of vectors created:   1
+ # of elements inserted: 6
+ # of elements accessed: 79
+*********************************************************
+*********************************************************
+ourvector<9topRating> stats:
+ # of vectors created:   1
+ # of elements inserted: 6
+ # of elements accessed: 75
+*********************************************************
+*********************************************************
+ourvector<6Rating> stats:
+ # of vectors created:   2
+ # of elements inserted: 18
+ # of elements accessed: 39
+*********************************************************
+*********************************************************
+ourvector<i> stats:
+ # of vectors created:   100
+ # of elements inserted: 819
+ # of elements accessed: 1102
+*********************************************************
+*********************************************************
+ourvector<NSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE> stats:
+ # of vectors created:   103
+ # of elements inserted: 672
+ # of elements accessed: 735
+*********************************************************
+*********************************************************
+ourvector<4user> stats:
+ # of vectors created:   10
+ # of elements inserted: 71
+ # of elements accessed: 796
+*********************************************************
+
+There are 7 different categories of vectors listed here that have to do with the
+creating of corresponding structs. The vectors with information starting on 
+lines 32 and 26 are not vector of structs but just temporary vectors that I used
+for data transfer. The first vector of struct is called user and this is where
+all the user data with titles, ratings, and names are stored. User vector is
+created on line 380 and is accessed on lines 57 and 87.For podcastsTiny and
+ratingsTiny files there are 7 users with 9 ratings and 9 titles being added to
+the vector. User is also being accessed on lines 325 and 337 where new users
+and ratings are being added. The second vector is being created as a temporary
+holder for title data. Created on line 380 and items are inserted on line 54.The
+third vector is for the my string of advanced ratings which corresponds to the
+titles of movies I should compare to current logged in user. This is created on
+line 383 and is accessed on line 280. The Rating vector is where top ratings are
+stored and it is made on line 381 and elements are accessed on 144 and 159. The
+topRating vector is where top average ratings are stored. This vector was
+created on line 381 and accessed on line 159. Advanced vector was used for the
+advanced command and kept track of the user with the highest dot product with
+the logged in user. Created on line 382 and accessed on line 202. advancedBasic
+was used to finish off the advanced command and show recommendations for the
+user. Created on line 382 and accessed on lines 252, 263, and 280.
